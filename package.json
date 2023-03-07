@@ -1,28 +1,40 @@
 {
-  "name": "learn-remotion",
-  "version": "1.0.0",
-  "description": "My Remotion video",
-  "scripts": {
-    "start": "remotion preview",
-    "build": "remotion render MyComp out/video.mp4",
-    "upgrade": "remotion upgrade",
-    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
-  },
-  "repository": {},
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@remotion/eslint-config": "^3.0.0",
-    "@types/react": "^18.0.26",
-    "@types/web": "^0.0.86",
-    "eslint": "^8.30.0",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
-  },
-  "dependencies": {
-    "@remotion/cli": "3.3.56",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "remotion": "3.3.56"
-  },
-  "packageManager": "npm@8.19.2"
+	"name": "learn-remotion",
+	"version": "1.0.0",
+	"description": "My Remotion video",
+	"type": "module",
+	"scripts": {
+		"start": "remotion preview",
+		"build": "remotion render RaymondBuildVideoFromReact out/video.mp4",
+		"upgrade": "remotion upgrade",
+		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
+	},
+	"repository": {},
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@remotion/eslint-config": "3.3.58",
+		"@types/faker": "5.5.9",
+		"@types/react": "^18.0.26",
+		"@types/web": "^0.0.86",
+		"eslint": "^8.30.0",
+		"prettier": "^2.8.1",
+		"typescript": "^4.9.4"
+	},
+	"dependencies": {
+		"@remotion/cli": "3.3.59",
+		"@remotion/google-fonts": "^3.3.59",
+		"@remotion/shapes": "^3.3.59",
+		"animate.css": "^4.1.1",
+		"chart.js": "^4.2.1",
+		"faker": "5.5.3",
+		"moment": "^2.29.4",
+		"react": "^18.0.0",
+		"react-chartjs-2": "^5.2.0",
+		"react-dom": "^18.0.0",
+		"remotion": "3.3.59",
+		"remotion-animated": "^1.0.3",
+		"remotion-animation": "^1.0.5",
+		"victory": "^36.6.8"
+	},
+	"packageManager": "npm@8.19.2"
 }
